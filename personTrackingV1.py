@@ -13,8 +13,8 @@ USE THE PROPER VIDEO SOURCE
 "path_to_an_mp4_file" -> A pre recorded video
 '''
 
-# videoSource = 0
-videoSource = "testVideo.mp4"
+videoSource = 0
+# videoSource = "testVideo.mp4"
 
 cap = cv2.VideoCapture(videoSource)
 
